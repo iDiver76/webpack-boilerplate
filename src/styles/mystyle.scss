@@ -1,0 +1,16 @@
+#wrapper {
+  height: 500px;
+  background: magenta;
+  color: white;
+
+  .entry {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    div {
+      text-align: left;
+      width: 300px;
+    }
+  }
+}

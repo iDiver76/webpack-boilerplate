@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper"></div>
+    <script id="entry-template" type="text/x-handlebars-template">
+      {{#each person}}
+      <div class="entry">
+        <div>{{first_name}}</div>
+        <div>{{last_name}}</div>
+        <div>{{email}}</div>
+        <div>{{gender}}</div>
+      </div>
+      {{/each}}
+    </script>
+    <script src="bundle.js"></script>
+  </body>
+</html>
